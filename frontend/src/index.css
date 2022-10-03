@@ -1,0 +1,237 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+@font-face {
+  font-family: 'minecraft';
+  src: local('minecraft'), url(./fonts/Minecraft.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'slkscr';
+  src: local('slkscr'), url(./fonts/slkscr.ttf) format('truetype');
+}
+
+/* @font-face {
+  font-family: 'slkscr';
+  font-weight: 900;
+  src: local('slkscr'), url(./fonts/slkscrb.ttf) format('truetype');
+} */
+
+/* layout */
+:root {
+  /* --primary: #1aac83; */
+  --primary: #E45826;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* header a h1 {
+  font-family: "slkscr";
+  font-size: 2.5rem;
+} */
+.pages {
+  padding: 30px 100px;
+}
+
+/* homepage */
+.home {
+  display: flex;
+  gap: 130px;
+  /* text-align: center; */
+}
+.home h2 {
+  text-align: center;
+}
+.home .intro-text {
+  color: #555;
+  /* text-justify: justify; */
+}
+.home .intro-box {
+  padding-top: 130px;
+}
+.btn {
+  text-align: center;
+  background: #DA723C;
+  border: 0;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 15px 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.account {
+  display: flex;
+  justify-content: center;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+  min-width: 340px;
+}
+nav a {
+  margin-left: 10px;
+}
+#logo img{
+  max-width: 4%;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+nav button {
+    background-color: #DA723C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+nav button:hover, nav button:focus {
+  background-color: #da733ca8;
+}
+
+
+
+
+/* Login/signup */
+form.login, form.signup {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* start page */
+.start {
+  display: flex;
+  gap: 100px;
+}
+.home-img {
+  vertical-align: middle;
+}
+/* .start-icons {
+  display: flex;
+} */
+.money {
+  display: flex;
+  font-family: "minecraft";
+}
+.money img{
+  object-fit: cover;
+  height: 8%;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  margin-left: 10px;
+}
+
+.money div {
+  padding-left: 10px;
+  padding-right: 50px;
+  /* padding-top: 5px; */
+  margin: auto 0;
+  border-radius: 5px;
+  /* font-size: 1.5rem; */
+  background-color: #edd787c5;
+  border: 2px solid #9a8787;
+  line-height: 2em;
+  height: 2em;
+}
+.money p {
+  margin: 0;
+}
+
+/* pomodoro timer */
+.pomo-block {
+  display: flex;
+  margin: auto;
+}
+.pomodoro {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: "slkscr";
+}
+
+.timer {
+  background-color: #DA723C;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  font-family: 'slkscr';
+  font-size: 5rem;
+  border-radius: 5px;
+  box-shadow: 10px 10px #555;
+  width: 300px;
+  height: 160px;
+}
+.pomo-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: auto;
+}
+.pomo-btn img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.msg {
+  font-size: 1rem;
+  color: #333;
+}
+.msg p {
+  margin: 8px;
+}
