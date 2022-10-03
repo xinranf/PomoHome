@@ -66,7 +66,7 @@ Pomodoro Home is a productivity app that uses gamification to help you get focus
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![screenshot2](https://live.staticflickr.com/65535/52402912380_2d847abbc4_o.jpg)
+![screenshot2](https://live.staticflickr.com/65535/52402912380_2d847abbc4_o.png)
 
 When you are ready, sign up a new account or login to your exisiting account. Start the timer and focus on your stuff. When a pomodoro ends, it will automatically start a 5-minute break session.
 
