@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 import pauseIcon from './Pause.png';
 
 export default function Pomodoro() {
-    const [minutes, setMinutes] = useState(0);
-    const [seconds, setSeconds] = useState(5);
+    const [minutes, setMinutes] = useState(25);
+    const [seconds, setSeconds] = useState(0);
     const [displayMsg, setDisplayMsg] = useState(false);
     const [isActive, setIsActive] = useState(false);
     const [isPaused, setIsPaused] = useState(true);

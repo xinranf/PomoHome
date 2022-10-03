@@ -1,3 +1,0 @@
-Pomodoro Home is a productivity app that uses gamification to help you get focused with the Pomodoro Technique. By completing each pomodoro timer, you'll earn money according to the time focused. You will have the chance to buy new furnitures in Store page, and apply them to your home at Decor page.
-
-What is Pomodoro Technique?
