@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![screenshot1](https://live.staticflickr.com/65535/52402978583_4c633b7cb0.jpg)
+![screenshot1](https://live.staticflickr.com/65535/52402978583_fe2c8cb904_o.png)
 
 
 Pomodoro Home is a productivity app that uses gamification to help you get focused with the Pomodoro Technique. By completing each pomodoro timer you'll gain coins. You will have the chance to buy new furnitures in Store page, and apply them to your home at Decor page.
@@ -66,7 +66,7 @@ Pomodoro Home is a productivity app that uses gamification to help you get focus
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![screenshot2](https://live.staticflickr.com/65535/52402912380_2d847abbc4.jpg)
+![screenshot2](https://live.staticflickr.com/65535/52402912380_2d847abbc4_o.jpg)
 
 When you are ready, sign up a new account or login to your exisiting account. Start the timer and focus on your stuff. When a pomodoro ends, it will automatically start a 5-minute break session.
 
