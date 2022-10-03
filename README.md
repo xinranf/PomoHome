@@ -106,6 +106,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [MERN Stack Tutorial](https://www.youtube.com/watch?v=98BzS5Oz5E4&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE)
 * [MERN Auth Tutorial](https://www.youtube.com/watch?v=WsRBmwNkv3Q&list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT)
 * [How to Build Pomodoro Timer in React](https://www.youtube.com/watch?v=9z1qBcFwdXg)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
